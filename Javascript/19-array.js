@@ -101,3 +101,31 @@ console.log(cars.indexOf("audi"))
 
 console.log(cars.includes("ferrari"))
 console.log(cars.includes("BMW"))
+
+//Array method Concat: merge 2 arrays
+
+let first = [1,4,7,9]
+let second = [0,8,6,3]
+console.log(first.concat(second))//it doesn't change our primary element respect to every array declared
+//it returns new arr
+
+//reverse method : it reverse the order of element from 1 to n - to - n to 1
+
+console.log(first.reverse())//it changes the original array i.e inplace reversal
+
+//slice method works as string slice and return the copy of the array as per given argument in method
+// and doesn't change the og array.
+
+// syntax : name.slice()- return copy of og array
+//name.slice(first)
+//name.slice(first,end)
+//name.slice(-num)= name.slice(name.length-num)
+
+console.log(cars.slice())
+console.log(cars.slice(2))
+console.log(cars.slice(1,3))
+console.log(cars.slice(1,8))//it doesn't give an error as index out of limit
+console.log(cars.slice(-2))
+console.log(cars.slice(9))//it returns []
+
+
