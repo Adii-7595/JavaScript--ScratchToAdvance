@@ -20,7 +20,7 @@ console.log(a1,"\n"+a2)
 //string method with arguments
 
 //Argument is a some value that we pass to the method
-//indexOf
+//indexOf return the first occurence index of any given string or alphabet
 
 console.log(a.indexOf("i"))
 console.log(a.indexOf("adi"))
