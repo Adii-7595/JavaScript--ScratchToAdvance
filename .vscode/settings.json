@@ -1,0 +1,5 @@
+{
+    "files.autoSave": "onFocusChange",
+    "editor.cursorStyle": "block",
+    "editor.autoIndent": "advanced"
+}
