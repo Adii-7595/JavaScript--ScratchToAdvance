@@ -98,4 +98,15 @@ obj.remove(element)
 
 
 
- 
+ //Practice questions
+
+ //add the following elements to the container using only js and dom methods
+
+//  i> a <P> with red texts says that "hey i'm red"
+//ii> a<h3> with blue text that syas "i'm blue h3"
+// iii> a <div> with a black border and pink bcg color with the element inside of it
+    //    --- another h1 tag that says i'm in a div
+    //   ---- a p tag that says "me too"
+
+
+
