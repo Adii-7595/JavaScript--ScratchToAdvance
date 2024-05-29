@@ -45,5 +45,57 @@ console.dir(document.querySelectorAll(".smallImg"))
 console.dir(document.querySelector("div a")) 
 
 
+//InnerText:shows the visible text content in a node
+//textContent : shows full text
+//innerHTML: show the full markup
+
+
 //setting content in object
 
+let para = document.querySelector('p')
+
+p.innerHTML = <u>${heading.innerText}</u>
+
+
+//manipulating attributes 
+obj.getAttribute(attr)
+obj.setAttribute(attr,val)
+
+//style property
+// obj.style
+
+//classList:obj.classList
+
+classList.add() //to add new class
+classList.remove()//to remove class
+classList.Contains()//to check if class exists
+classList.toggle()// to toggle between add and remove
+
+//navigation on page
+// parentElement 
+// chilElement
+// previousElelmentSibling / nextElementSibling
+
+//adding element 
+document.createElement('p')
+appendChild(element)
+append(element)
+prepend(element)
+insertAdjacent(where,element)
+
+p.insertAdjacentElement('beforebegin', element)
+p.insertAdjacentElement('beforeend', element)
+p.insertAdjacentElement('afterbegin', element)
+p.insertAdjacentElement('afterend', element)
+
+
+//removeElement
+// removeChild
+// remove(element)
+
+obj.removeChild(element)
+obj.remove(element)
+
+
+
+ 
