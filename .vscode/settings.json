@@ -1,5 +1,6 @@
 {
     "files.autoSave": "onFocusChange",
     "editor.cursorStyle": "block",
-    "editor.autoIndent": "advanced"
+    "editor.autoIndent": "advanced",
+    "liveServer.settings.port": 5581
 }
