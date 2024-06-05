@@ -72,12 +72,31 @@ function savetoDb(data) {
 //         console.log("promise rejected")
 //     });
 
-savetoDb("apna time bhad me gaya!").then(() => {
-    console.log("Promise resolved");
 
+//Promise chaining:- improved version , its nested then and catch
+//Results and errors
 
-})
-    .catch(() => {
-        console.log("Promise rejected");
-
+savetoDb("apna time bhad me gaya!")
+    .then((res) => {
+        console.log("save1: Promise resolved");
+        console.log("result of promise:",res);
+        return savetoDb("hello");
     })
+    .then((res) => {
+        console.log("save2: Promise resolved");
+        return savetoDb("hii");
+    })
+    .then((res) => {
+        console.log("save3: Promises resolved")
+    })
+    .catch((error) => {
+        console.log("fail1: Promise rejected");
+        console.log("result of promise:",error);
+        console.log(error)
+
+    });
+
+
+
+
+
