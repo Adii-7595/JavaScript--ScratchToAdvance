@@ -1,4 +1,4 @@
-body {
+/* body {
     text-align: center;
     background-color: #91a7a8;
 }
@@ -33,6 +33,91 @@ body {
     background-color: yellow;
 }
 
+.flash{
+    background-color: white;
+}
+
+.userFlash {
+    background-color: orange;
+}
+
+ */
+
+
+body {
+    text-align: center;
+    background-color: #91a7a8;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://media.istockphoto.com/id/1169630303/photo/blue-textured-background.webp?b=1&s=170667a&w=0&k=20&c=tI2xFhXqXFqMM0IvxSYY3F7LIwv450h2ch3yD-lZ9HU=);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.btn {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 8px solid rgba(255, 255, 255, 0.8);
+    margin: 1.5rem;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.red {
+    background-color: #ff3f34;
+}
+
+.blue {
+    background-color: #3498db;
+}
+
+.green {
+    background-color: #2ecc71;
+}
+
+.yellow {
+    background-color: #f1c40f;
+}
+
+h2 {
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+h2 span {
+    color: #ff3f34;
+}
 .flash{
     background-color: white;
 }
