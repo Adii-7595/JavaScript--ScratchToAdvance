@@ -54,3 +54,20 @@ async function getfacts(){
     }
 }
 getfacts();
+
+
+
+//Axios header
+//updating query string
+
+// let aewi = "https://universities.hipolabs.com/search?name=";
+// let country = "nepal";
+// async function getColleges(){
+//     try{
+//         let res =await axios.get(aewi+country);
+//         console.log(res);
+//     }catch(e){
+//         console.log(e)
+//     }
+// }
+// getColleges();
